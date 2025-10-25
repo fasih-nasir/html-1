@@ -18,16 +18,16 @@ tutorials.forEach(tutorial => {
   col.className = "col-md-4 mb-4";
 
   col.innerHTML = `
-    <div class="card shadow-sm h-100">
-      <video controls poster="">
-        <source src="${tutorial.videoSrc}" type="video/mp4">
+    <div class="card shadow-sm h-100 bg p-2 ">
+      <video controls poster="" class="round">
+        <source src="${tutorial.videoSrc}"class="round" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <div class="card-body">
-        <h5 class="card-title">${tutorial.topic}</h5>
-        <p class="card-text">${tutorial.description}</p>
+        <h5 class="card-title mb-2 text-light fw-medium">${tutorial.topic}</h5>
+        <p class="card-text text_light">${tutorial.description}</p>
       </div>
-      <div class="card-footer text-muted small">
+      <div class="card-footer text-muted small text_light">
         Uploaded on: ${tutorial.uploadDate}
       </div>
     </div>

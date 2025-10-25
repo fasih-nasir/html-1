@@ -3,13 +3,22 @@
 
 body{
     font-family:  "Montserrat", sans-serif !important;
-}
+background-color: rgb(20, 20, 20) !important;
+  }
 .card {
   border-radius: 15px;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+.text_light{
+  color: rgb(136, 136, 136) !important;
+}
+.bg{
+  background-color: black !important;
+}
+video{
+  border-radius: 8px !important;
+}
 .card:hover {
   transform: translateY(-8px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
