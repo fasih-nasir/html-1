@@ -1,16 +1,17 @@
 // 🔹 Array of video tutorials
 const tutorials = [
-  {
-    topic: "Introduction to HTML",
-    uploadDate: "25-Oct-2025",
-    description: "Learn what HTML is and how it structures a web page.",
-    videoSrc: "videos/htm-1.mp4"
-  },
+ 
     {
     topic: "Install Compiler for C++ ",
     uploadDate: "07-Nov-2025",
     description: "In this tutorial We solve the issue of gcc is not recognize ... ",
     videoSrc: "videos/htm-2.mp4"
+  },
+   {
+    topic: "Introduction to HTML",
+    uploadDate: "25-Oct-2025",
+    description: "Learn what HTML is and how it structures a web page.",
+    videoSrc: "videos/htm-1.mp4"
   },
  
 ];
